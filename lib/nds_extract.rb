@@ -1,12 +1,5 @@
-require 'pp'
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
-
-
-def pretty_print_source(source)
-  pp source
-  nil 
-end 
 
 def directors_totals(source)
   result = {}
