@@ -1,6 +1,7 @@
+require 'pp'
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
-require 'pp'
+
 
 def pretty_print_source(source)
   pp source
